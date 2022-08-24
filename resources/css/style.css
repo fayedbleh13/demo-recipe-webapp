@@ -1,0 +1,19 @@
+
+.bg-brand {
+    @apply bg-cover bg-no-repeat bg-top;
+    background-image: linear-gradient(
+        rgba(18, 26, 46, 0.8),
+        rgba(18, 26, 46, 0.8)
+        ),
+        url("../css/Images/cover_img.jpg");
+}
+
+.bg-header {
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+}
+
+.bg-footer {
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+}
