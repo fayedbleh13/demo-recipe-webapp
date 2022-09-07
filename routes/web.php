@@ -28,4 +28,8 @@ Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::get('/recipe-details', function () {
+    return Inertia::render('RecipeDetails');
+})->middleware(['auth', 'verified'])->name('recipe-details');
+
 require __DIR__.'/auth.php';
