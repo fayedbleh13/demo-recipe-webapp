@@ -88,6 +88,11 @@ export default function Login({ status, canResetPassword }) {
                         Log in
                     </Button>
                 </div>
+                <div className='flex items-center justify-center mt-6'>
+                    <Link href={route('register')} className="text-lg text-gray-700 hover:underline">
+                            No account yet? Sign up here now
+                    </Link>
+                </div>
             </form>
         </Guest>
     );
