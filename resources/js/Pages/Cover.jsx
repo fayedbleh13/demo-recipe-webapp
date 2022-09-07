@@ -8,9 +8,7 @@ export default function Cover(props) {
     return (
         <>
             <Head title="Recipe Web App" />
-            {/* <div className="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
-                
-            </div> */}
+            
             <div >
                 <header className="bg-header fixed top-0 left-0 px-6 py-4 md:block">
                     <div className="flex justify-end">
